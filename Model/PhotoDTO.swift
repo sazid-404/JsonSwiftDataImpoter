@@ -8,7 +8,7 @@
 import Foundation
 
 struct PhotoDTO: Identifiable, Codable {
-    let aldumID: Int
+    let albumId: Int
     let id: Int
     let title: String
     let url: String

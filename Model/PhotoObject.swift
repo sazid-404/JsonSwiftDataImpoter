@@ -28,7 +28,7 @@ class PhotoObject {
     
     convenience init(item: PhotoDTO) {
         self.init(
-            albumId: item.aldumID,
+            albumId: item.albumId,
             id: item.id,
             title: item.title,
             url: item.url,

@@ -1,5 +1,5 @@
 ////
-////  PhotosService.swift
+////  NetworkService.swift
 ////  JsonSwiftDataImpoter
 ////
 ////  Created by Sazzadul Islam on 9/15/25.
@@ -21,7 +21,7 @@ enum NetworkError: LocalizedError {
     }
 }
 
-struct PhotosService {
+struct NetworkService {
     var session: URLSession = .shared
 
     /// Fetches an array of `PhotoDTO` from the given endpoint.

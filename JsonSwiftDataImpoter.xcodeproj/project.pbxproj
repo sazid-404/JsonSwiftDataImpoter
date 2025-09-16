@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		07E1693E2E78BA630031EE97 /* PhotoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E1693D2E78BA630031EE97 /* PhotoDTO.swift */; };
 		07E169402E78CBFB0031EE97 /* PhotoObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E1693F2E78CBFB0031EE97 /* PhotoObject.swift */; };
+		07E169422E78E9CD0031EE97 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E169412E78E9CD0031EE97 /* NetworkService.swift */; };
+		07E169442E78E9FF0031EE97 /* PhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E169432E78E9FF0031EE97 /* PhotosViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07E1692A2E789FA30031EE97 /* JsonSwiftDataImpoter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonSwiftDataImpoter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E1693D2E78BA630031EE97 /* PhotoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDTO.swift; sourceTree = "<group>"; };
 		07E1693F2E78CBFB0031EE97 /* PhotoObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoObject.swift; sourceTree = "<group>"; };
+		07E169412E78E9CD0031EE97 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		07E169432E78E9FF0031EE97 /* PhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -65,6 +69,7 @@
 		07E169392E789FC10031EE97 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				07E169432E78E9FF0031EE97 /* PhotosViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -74,6 +79,7 @@
 			children = (
 				07E1693D2E78BA630031EE97 /* PhotoDTO.swift */,
 				07E1693F2E78CBFB0031EE97 /* PhotoObject.swift */,
+				07E169412E78E9CD0031EE97 /* NetworkService.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -154,6 +160,8 @@
 			files = (
 				07E1693E2E78BA630031EE97 /* PhotoDTO.swift in Sources */,
 				07E169402E78CBFB0031EE97 /* PhotoObject.swift in Sources */,
+				07E169422E78E9CD0031EE97 /* NetworkService.swift in Sources */,
+				07E169442E78E9FF0031EE97 /* PhotosViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
